@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT. Mahak Lestari Indah | Kontraktor Pertambangan Batu Bara</title>
+  <meta name="description"
+    content="PT. Mahak Lestari Indah adalah perusahaan kontraktor pertambangan batu bara di Samarinda, Kalimantan Timur, Indonesia.">
+  <link rel="canonical" href="[ISI: URL domain resmi]/index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="PT. Mahak Lestari Indah">
+  <meta property="og:title" content="PT. Mahak Lestari Indah | Kontraktor Pertambangan Batu Bara">
+  <meta property="og:description"
+    content="PT. Mahak Lestari Indah adalah perusahaan kontraktor pertambangan batu bara di Samarinda, Kalimantan Timur, Indonesia.">
+  <meta property="og:url" content="[ISI: URL domain resmi]/index.html">
+  <meta property="og:image" content="[ISI: URL gambar Open Graph]">
+
+  <!-- Stylesheets -->
+  <link rel="preload" as="image" href="assets/img/hero-img-1.webp">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/careers.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/htmx.org@2.0.4" defer></script>
+  <script src="assets/js/translation.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
+</head>
+
+<body hx-boost="true" hx-indicator=".htmx-progress">
+  <div class="htmx-progress" aria-hidden="true"></div>
+  <header class="site-header" hx-get="partials/header.html" hx-trigger="load" hx-swap="outerHTML"></header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 id="hero-heading" class="hero-title">PT. Mahak Lestari Indah</h1>
+          <p class="hero-description" data-i18n="hero.description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam porro saepe recusandae soluta tempore atque
+            perspiciatis assumenda adipisci suscipit itaque eaque placeat voluptates molestias, iste nobis fugit
+            architecto? Delectus, quas!
+          </p>
+          <div class="hero-actions">
+            <a href="#layanan" class="btn btn-accent hero-cta" data-i18n="hero.cta">
+              Layanan Kami
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-metrics-container">
+        <div class="hero-metrics" role="region" aria-label="Ringkasan Pengalaman Perusahaan">
+          <ul class="metrics-grid">
+            <li class="metric-item">
+              <span class="metric-value">4+</span>
+              <span class="metric-label" data-i18n="metrics.label1">Tahun Pengalaman</span>
+            </li>
+            <li class="metric-item">
+              <span class="metric-value">70k</span>
+              <span class="metric-label" data-i18n="metrics.label2">Total Produksi</span>
+            </li>
+            <li class="metric-item">
+              <span class="metric-value">10+</span>
+              <span class="metric-label" data-i18n="metrics.label3">Mitra IUP</span>
+            </li>
+            <li class="metric-item">
+              <span class="metric-value">8k</span>
+              <span class="metric-label" data-i18n="metrics.label4">Jam Kerja Aman</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="layanan" class="section services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header text-center services-header">
+          <h2 id="services-heading" class="section-title" data-i18n="services.title">Layanan Kami</h2>
+          <p class="section-subtitle services-subtitle" data-i18n="services.subtitle">
+            [ISI: Deskripsi pengantar singkat mengenai layanan kontraktor pertambangan batu bara]
+          </p>
+        </div>
+
+        <div class="grid grid-cols-3 services-grid" id="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M3 18h18" />
+                <path d="M5 18v-3h6l3-5h4l2 4v4" />
+                <circle cx="7.5" cy="18" r="2" />
+                <circle cx="16.5" cy="18" r="2" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.item1.title">[ISI: Layanan 1]</h3>
+            <div class="service-desc-wrap" id="service-desc-1">
+              <p class="service-desc" data-i18n="services.item1.desc">
+                [ISI: Deskripsi singkat layanan 1, misalnya pengupasan lapisan tanah penutup atau pembersihan lahan.]
+              </p>
+            </div>
+            <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-1">
+              <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+              <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+              <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.item2.title">[ISI: Layanan 2]</h3>
+            <div class="service-desc-wrap" id="service-desc-2">
+              <p class="service-desc" data-i18n="services.item2.desc">
+                [ISI: Deskripsi singkat layanan 2, misalnya penggalian dan pengambilan batu bara.]
+              </p>
+            </div>
+            <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-2">
+              <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+              <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+              <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="1" y="6" width="15" height="10" rx="1" />
+                <path d="M16 9h4l3 4v3h-7V9z" />
+                <circle cx="5.5" cy="18.5" r="2.5" />
+                <circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.item3.title">[ISI: Layanan 3]</h3>
+            <div class="service-desc-wrap" id="service-desc-3">
+              <p class="service-desc" data-i18n="services.item3.desc">
+                [ISI: Deskripsi singkat layanan 3, misalnya pengangkutan batu bara dari pit ke stockpile atau
+                pelabuhan.]
+              </p>
+            </div>
+            <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-3">
+              <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+              <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+              <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+          </article>
+
+          <div class="services-extra-wrap" id="services-extra">
+            <div class="services-extra-inner">
+              <article class="service-card">
+                <div class="service-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                      d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                  </svg>
+                </div>
+                <h3 class="service-title" data-i18n="services.item4.title">[ISI: Layanan 4]</h3>
+                <div class="service-desc-wrap" id="service-desc-4">
+                  <p class="service-desc" data-i18n="services.item4.desc">
+                    [ISI: Deskripsi singkat layanan 4, misalnya pemeliharaan armada dan dukungan alat berat.]
+                  </p>
+                </div>
+                <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-4">
+                  <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+                  <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+                  <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+              </article>
+
+              <article class="service-card">
+                <div class="service-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                </div>
+                <h3 class="service-title" data-i18n="services.item5.title">[ISI: Layanan 5]</h3>
+                <div class="service-desc-wrap" id="service-desc-5">
+                  <p class="service-desc" data-i18n="services.item5.desc">
+                    [ISI: Deskripsi singkat layanan 5, misalnya manajemen K3LH dan keselamatan operasional tambang.]
+                  </p>
+                </div>
+                <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-5">
+                  <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+                  <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+                  <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+              </article>
+
+              <article class="service-card">
+                <div class="service-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+                    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                  </svg>
+                </div>
+                <h3 class="service-title" data-i18n="services.item6.title">[ISI: Layanan 6]</h3>
+                <div class="service-desc-wrap" id="service-desc-6">
+                  <p class="service-desc" data-i18n="services.item6.desc">
+                    [ISI: Deskripsi singkat layanan 6, misalnya reklamasi lahan dan pengelolaan lingkungan
+                    pascatambang.]
+                  </p>
+                </div>
+                <button type="button" class="service-toggle" aria-expanded="false" aria-controls="service-desc-6">
+                  <span class="service-toggle-more" data-i18n="services.seeMore">Lihat selengkapnya</span>
+                  <span class="service-toggle-less" data-i18n="services.seeLess">Sembunyikan</span>
+                  <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-more-wrap">
+          <button type="button" class="btn btn-outline services-more-btn" aria-expanded="false"
+            aria-controls="services-extra">
+            <span class="services-more-show" data-i18n="services.showAll">Lihat layanan lainnya</span>
+            <span class="services-more-hide" data-i18n="services.showLess">Tampilkan lebih sedikit</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" hx-get="partials/footer.html" hx-trigger="load" hx-swap="outerHTML"></footer>
+</body>
+
+</html>

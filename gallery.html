@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Dokumentasi | PT. Mahak Lestari Indah</title>
+  <meta name="description"
+    content="Galeri dokumentasi kegiatan operasional, armada alat berat, dan K3LH PT. Mahak Lestari Indah.">
+  <link rel="canonical" href="[ISI: URL domain resmi]/gallery.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="PT. Mahak Lestari Indah">
+  <meta property="og:title" content="Galeri Dokumentasi | PT. Mahak Lestari Indah">
+  <meta property="og:description"
+    content="Galeri dokumentasi kegiatan operasional, armada alat berat, dan K3LH PT. Mahak Lestari Indah.">
+  <meta property="og:url" content="[ISI: URL domain resmi]/gallery.html">
+  <meta property="og:image" content="[ISI: URL gambar Open Graph]">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/careers.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/htmx.org@2.0.4" defer></script>
+  <script src="assets/js/translation.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
+</head>
+
+<body hx-boost="true" hx-indicator=".htmx-progress">
+  <div class="htmx-progress" aria-hidden="true"></div>
+  <a href="#main-content" class="skip-link" data-i18n="nav.skip">Lewati ke konten utama</a>
+
+  <header class="site-header" hx-get="partials/header.html" hx-trigger="load" hx-swap="outerHTML"></header>
+
+  <main id="main-content">
+    <section class="page-hero" aria-labelledby="gallery-heading">
+      <div class="container">
+        <span class="page-hero-eyebrow" data-i18n="gallery.eyebrow">Dokumentasi Lapangan</span>
+        <h1 id="gallery-heading" class="page-hero-title" data-i18n="gallery.title">Galeri Dokumentasi</h1>
+        <p class="page-hero-desc" data-i18n="gallery.desc">
+          [ISI: Deskripsi singkat dokumentasi operasional pertambangan, armada alat berat, dan kegiatan K3LH PT. Mahak Lestari Indah]
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Galeri Foto Proyek dan Armada">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="Filter Kategori Galeri">
+          <button type="button" class="filter-btn is-active" data-gallery-filter="all" aria-pressed="true"
+            data-i18n="gallery.filter.all">Semua</button>
+          <button type="button" class="filter-btn" data-gallery-filter="ops" aria-pressed="false"
+            data-i18n="gallery.filter.ops">Operasional Tambang</button>
+          <button type="button" class="filter-btn" data-gallery-filter="fleet" aria-pressed="false"
+            data-i18n="gallery.filter.fleet">Armada Alat Berat</button>
+          <button type="button" class="filter-btn" data-gallery-filter="hse" aria-pressed="false"
+            data-i18n="gallery.filter.hse">K3LH / HSE</button>
+          <button type="button" class="filter-btn" data-gallery-filter="csr" aria-pressed="false"
+            data-i18n="gallery.filter.csr">CSR &amp; Lingkungan</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <article class="gallery-item" data-category="fleet">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-img-1.webp" alt="[ISI: Foto armada dump truck di area tambang]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.fleet">Armada Alat Berat</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 1]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 1]</p>
+              </div>
+            </button>
+          </article>
+
+          <article class="gallery-item" data-category="ops">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-mining.svg" alt="[ISI: Foto kegiatan pengupasan tanah penutup]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.ops">Operasional Tambang</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 2]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 2]</p>
+              </div>
+            </button>
+          </article>
+
+          <article class="gallery-item" data-category="hse">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-img-1.webp" alt="[ISI: Foto safety briefing atau inspeksi K3LH]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.hse">K3LH / HSE</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 3]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 3]</p>
+              </div>
+            </button>
+          </article>
+
+          <article class="gallery-item" data-category="ops">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-mining.svg" alt="[ISI: Foto aktivitas pengangkutan batu bara]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.ops">Operasional Tambang</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 4]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 4]</p>
+              </div>
+            </button>
+          </article>
+
+          <article class="gallery-item" data-category="fleet">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-img-1.webp" alt="[ISI: Foto perawatan berkala alat berat]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.fleet">Armada Alat Berat</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 5]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 5]</p>
+              </div>
+            </button>
+          </article>
+
+          <article class="gallery-item" data-category="csr">
+            <button type="button" class="gallery-trigger">
+              <div class="gallery-thumb">
+                <img src="assets/img/hero-mining.svg" alt="[ISI: Foto kegiatan reklamasi atau CSR]" width="1600" height="1000" loading="lazy" decoding="async">
+              </div>
+              <div class="gallery-caption">
+                <span class="gallery-category" data-i18n="gallery.filter.csr">CSR &amp; Lingkungan</span>
+                <h2 class="gallery-title">[ISI: Judul Dokumentasi 6]</h2>
+                <p class="gallery-desc">[ISI: Keterangan singkat lokasi &amp; aktivitas foto 6]</p>
+              </div>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title"
+    aria-hidden="true">
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" aria-label="Tutup pratinjau">&times;</button>
+      <div class="lightbox-media">
+        <img id="lightbox-img" src="" alt="" decoding="async">
+      </div>
+      <div class="lightbox-footer">
+        <div class="lightbox-info">
+          <h3 id="lightbox-title" class="lightbox-title"></h3>
+          <p id="lightbox-desc" class="lightbox-desc"></p>
+        </div>
+        <div class="lightbox-controls">
+          <button type="button" class="btn btn-outline-light btn-sm" data-lightbox-prev
+            data-i18n="gallery.prev">Sebelumnya</button>
+          <button type="button" class="btn btn-accent btn-sm" data-lightbox-next
+            data-i18n="gallery.next">Berikutnya</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer" hx-get="partials/footer.html" hx-trigger="load" hx-swap="outerHTML"></footer>
+</body>
+
+</html>

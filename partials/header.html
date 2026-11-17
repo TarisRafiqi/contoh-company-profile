@@ -1,0 +1,57 @@
+<header class="site-header">
+  <nav class="navbar container" aria-label="Navigasi Utama">
+    <!-- Brand / Logo Perusahaan -->
+    <a href="index.html" class="navbar-brand" aria-label="PT. Mahak Lestari Indah - Beranda">
+      <span class="brand-mark" aria-hidden="true" title="[ISI: Logo PT. Mahak Lestari Indah]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M14.5 4.5L19.5 9.5" />
+          <path d="M3 21L14 10" />
+          <path d="M13 6L18 11" />
+          <path d="M9 5C12.5 3.5 16.5 4.5 19 7C20.5 9.5 20.5 13.5 19 15" />
+        </svg>
+      </span>
+      <span class="brand-name">PT. Mahak Lestari Indah</span>
+    </a>
+
+    <!-- Menu Navigasi Tengah (Desktop) & Drawer (Mobile) -->
+    <div class="navbar-menu" id="navbar-menu">
+      <ul class="navbar-nav">
+        <li>
+          <a href="index.html" class="nav-link" data-page="index.html" data-i18n="nav.home">Beranda</a>
+        </li>
+        <li>
+          <a href="index.html#layanan" class="nav-link" data-i18n="nav.services">Layanan</a>
+        </li>
+        <li>
+          <a href="#kontak" class="nav-link" data-i18n="nav.contact">Kontak</a>
+        </li>
+        <li>
+          <a href="careers.html" class="nav-link" data-page="careers.html" data-i18n="nav.careers">Karir</a>
+        </li>
+        <li>
+          <a href="gallery.html" class="nav-link" data-page="gallery.html" data-i18n="nav.gallery">Galeri</a>
+        </li>
+      </ul>
+
+      <div class="navbar-cta-mobile">
+        <a href="#kontak" class="btn btn-accent btn-block" data-i18n="nav.cta">Hubungi Kami</a>
+      </div>
+    </div>
+
+    <!-- Tombol Kanan: Toggle Bahasa, CTA & Hamburger Mobile -->
+    <div class="navbar-actions">
+      <div class="lang-switch" role="group" aria-label="Pilih Bahasa">
+        <button type="button" class="lang-btn is-active" data-lang="id" aria-pressed="true">ID</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+
+      <a href="#kontak" class="btn btn-accent navbar-cta-desktop" data-i18n="nav.cta">Hubungi Kami</a>
+
+      <button type="button" class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu"
+        aria-label="Buka menu navigasi">
+        <span class="navbar-toggle-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+</header>
